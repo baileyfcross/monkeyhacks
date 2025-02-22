@@ -6,8 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "prod-build": "ng build --output-path docs --base-href monkeyhacks/",
+    "copy:index": "copy \"G:\\monkeyhacks\\src\\index.html\" \"./docs/index.html\" ",
     "copy:cname": "copy \"./CNAME\" \"./docs/CNAME\" ",
-    "compose": "npm run prod-build && npm run copy:cname",
+    "compose": "npm run prod-build && npm run copy:cname && npm run copy:index",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:monkeyhacks": "node dist/monkeyhacks/server/server.mjs"
