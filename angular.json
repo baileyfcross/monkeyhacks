@@ -11,29 +11,29 @@
         }
       },
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "docs",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/monkeyhacks",
-            "index": "index.html",
-            "browser": "src/main.ts",
+            "index": "docs/src/index.html",
+            "browser": "docs/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "docs/src/eyebrows.ico",
+              "docs/src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "docs/src/styles.scss"
             ],
             "scripts": [],
-            "server": "src/main.server.ts",
+            "server": "docs/src/main.server.ts",
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
@@ -95,7 +95,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "docs/src/styles.scss"
             ],
             "scripts": []
           }
