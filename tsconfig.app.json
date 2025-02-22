@@ -8,11 +8,11 @@
     ]
   },
   "files": [
-    "docs/src/main.ts",
-    "docs/src/main.server.ts",
+    "src/main.ts",
+    "src/main.server.ts",
     "server.ts"
   ],
   "include": [
-    "docs/src/**/*.d.ts"
+    "src/**/*.d.ts"
   ]
 }
