@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/monkeyhacks",
-            "index": "docs/src/index.html",
+            "index": "index.html",
             "browser": "docs/src/main.ts",
             "polyfills": [
               "zone.js"
